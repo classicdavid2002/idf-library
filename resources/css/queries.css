@@ -1,0 +1,312 @@
+/* Big tablet to 1200px (widths smaller taht the 1140px row) */
+@media only screen and (max-width: 1200px) {
+    .idf-library {
+        width: 100%;
+        padding: 0 2%;
+    }
+    
+    .row { padding: 0 2%; }
+
+    .image {
+        height: 531px;
+        position: relative;
+        top: 15px;
+    }
+}
+
+
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1024px) {
+    body { font-size: 18px; width: 1200px;}
+    section { padding: 60px 0; }
+
+    .row,
+    .idf-library { padding: 0 4%; }
+    .col { 
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+
+    h1 {
+        font-size: 190%;
+        margin-bottom: 20px;
+    }
+    
+    .long-copy {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+
+
+
+
+    .mobile-nav-icon {display: inline-block;}
+    
+    nav ul {
+        float: left;
+        margin-top: 30px;
+        margin-left: 25px;
+    }
+    
+    nav ul li {
+        display: block;
+        margin-top: 5px;
+    }
+    
+    nav ul li a:link,
+    nav ul li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 80%;
+    }
+
+    nav ul li .on-active::selection {
+        padding-bottom: 5px;
+        border: 2px solid rgb(240, 242, 247);
+    }
+
+    nav ul li .buy-now {
+        padding-bottom: 5px;
+        color: rgb(233, 225, 225);
+        background-color: rgba(59, 109, 201,0);
+    }
+    
+    .sticky nav ul { margin-top: 10px;
+    }
+
+    .sticky nav ul li a:link,
+    .sticky nav ul li a:visited { padding: 10px 0; }
+    .sticky .mobile-nav-icon { margin-top: 10px; }
+    .sticky .mobile-nav-icon i { color: #555; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .image {
+        height: 530px;
+        margin-top: -90px;
+        margin-left: -105px;
+    }
+    
+    .footer-nav li,
+    .social-links li {
+        margin-right: 15px;
+    }
+
+    .contact-form { width: 80%; }
+}
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 768px) {
+    body { font-size: 16px; }
+    section { padding: 30px 0; }
+    
+    .row,
+    .idf-library { padding: 0 4%; }
+    .col { 
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+
+    .col:first-child {
+        margin-bottom: 8px;
+        margin-top: 8px;
+    }
+    
+    .idf-library {
+        top: 70%;
+        left: 50%;
+        transform: translate(-45%, -50%);
+    }
+
+    .idf-library h1 {
+        font-size: 175%;
+    }
+
+    nav {
+        display: none; }
+
+    /* .mobile-nav-icon {display: inline-block;}
+    
+    nav ul {
+        float: left;
+        margin-top: 30px;
+        margin-left: 25px;
+    }
+    
+    nav ul li {
+        display: block;
+        margin-top: 5px;
+    }
+    
+    nav ul li a:link,
+    nav ul li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 80%;
+    }
+
+    nav ul li .on-active::selection {
+        padding-bottom: 5px;
+        border: 2px solid rgb(240, 242, 247);
+    }
+
+    nav ul li .buy-now {
+        padding-bottom: 5px;
+        color: rgb(233, 225, 225);
+        background-color: rgba(59, 109, 201,0);
+    }
+    
+    .sticky nav ul { margin-top: 10px;
+    }
+
+    .sticky nav ul li a:link,
+    .sticky nav ul li a:visited { padding: 10px 0; }
+    .sticky .mobile-nav-icon { margin-top: 10px; }
+    .sticky .mobile-nav-icon i { color: #555; } */
+
+
+
+    .image {
+        height: 415px;
+        margin-top: -60px;
+    }
+
+    .footer-nav li {
+        display: none;
+    }
+
+    h1 { font-size: 180%; }
+    h2 { font-size: 150%; }
+    
+    .long-copy {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .papa-image {
+        width: auto;
+        height: 445px;
+        margin-left: 50px;
+    }
+
+}
+
+@media only screen and (max-width: 540px) {
+
+    .row {max-width: 1050px;}
+
+    .idf-library {
+        top: 70%;
+        left: 60%;
+        transform: translate(-45%, -50%);
+    }
+    .image {
+        height: 315px;
+        position: relative;
+        left: 75px;
+    }
+    .papa-image {height: 290px;}
+}
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+    body {overflow-x: hidden; width: 481px;}
+    h1 { font-size: 160%; }
+    section { padding: 25px 0; }
+
+    /* .sticky {
+        width: 90%;
+    } */
+
+    .image {
+        margin-top: -10px;
+        margin-left: -55px;
+    }
+
+    .papa-image {
+        margin-top: 35px;
+        margin-left: 100px;
+    }
+
+    .social-links {
+        position: relative;
+        top: 50%;
+        left: -15%;
+        transform: translate(-50%, 50%);
+    }
+}
+
+@media only screen and (max-width: 420px) {
+
+    body {
+        width: 480px;
+        overflow-x: hidden;
+    }
+    .papa-image {
+        margin-top: 35px;
+        margin-left: 135px;
+    }
+
+    .social-links {
+        margin-bottom: 15px;
+        position: relative;
+        top: 50%;
+        left: -20%;
+        transform: translate(-50%, 50%);
+    }
+}
+
+
+@media only screen and (max-width: 375px) {
+
+    body {
+        width: 425px;
+        overflow-x: hidden;
+    }
+
+    .papa-image {
+        position: relative;
+        left: 0.5%;
+        /* transform: translateX(-50%); */
+    }
+    
+    .image {
+        height: 365px;
+        position: relative;
+        left: 5%;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+
+    body {overflow-x: hidden;}
+    
+    .papa-image {
+        height: 300px;
+        position: relative;
+        right: 15%;
+        /* transform: translateX(-40%); */
+    }
+
+    .image {
+        height: 250px;
+        position: relative;
+        left: 25%;
+    }
+
+    .author-p {text-align: center;}
+    .long-copy { text-align: center;}
+}
